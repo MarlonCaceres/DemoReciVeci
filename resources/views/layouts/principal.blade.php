@@ -18,7 +18,7 @@
 </head>
 <header >
 		<div class=" menu_bar centrar" style="margin-top: 20px;">
-			<a href="#" class="bt-menu name-logo"><!--span class="name-logo">ReciVeci</span--><img src="images/logo.png" width="150" alt="logo ReciVeci"--><img " src="images/menu_icon.png" width="20"><!--/span--></a>
+			<a href="#" class="bt-menu name-logo "><img src="images/logo.png" width="150" alt="logo ReciVeci"><img class="redondear" src="images/menu_icon.png" width="20"><!--/span--></a>
 		</div>
 		<nav class="justify-content-between">
 			
@@ -38,7 +38,7 @@
 	<div id="content">
 		@yield('content')	
 	</div>
-	
+	<br>
 </body>
 <footer>
 	<br>
@@ -60,16 +60,22 @@
 		
 		<div class="col ">
 			<div class="">
-				<p class="centrar negrilla">Preguntas Frecuentes</p>
+				<p class="centrar negrilla">¿Tienes Alguna Duda?</p>
 				<ul  class="centrar">
 					<li></li>
-					<li><a href="faq">¿Qué es ReciVeci?</a></li>
+					<!--li><a href="faq">¿Qué es ReciVeci?</a></li>
 					<li><a href="faq">¿Qué es reciclaje inclusivo?</a></li>
 					<li><a href="faq">¿Cómo puedo saber si ReciVeci<br>está en mi barrio?</a></li>
 					<li><a href="faq">¿Qué es un voluntario ReciVeci?</a></li>
-					<li><a href="faq">Ver más...</a></li>
+					<li><a href="faq">Ver más...</a></li-->
+					<li><a href="faq">Preguntas Frecuentes</a></li>
 				</ul>
 			</div>
+			<!--br>
+			<div class="">
+				<p class="centrar negrilla">Contáctanos</p>
+				<p class="centrar">info@reciveci.ec</p>
+			</div-->
 		</div>
 
 		<div class="col ">
@@ -91,7 +97,7 @@
 				</ul>
 			</div>
 		</div>
-		
+			
 	</div>
 
 </footer>

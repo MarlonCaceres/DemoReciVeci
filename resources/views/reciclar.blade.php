@@ -24,10 +24,10 @@
 		</div>
 	</div>
 	<br><br>
-	<div style="float: none; position: relative; left: 10%;" class="centrar" onchange="ocultar()" id="categorias">
-		<ul class="nav" id="myTab" role="tablist">
+	<div style="float: none; position: relative; left: 6%;" class="centrar" onchange="ocultar()" id="categorias">
+		<ul class="nav " id="myTab" role="tablist">
 			<li></li>
-		  <li class="nav-item" id="reciclable1" >
+		  <li class="nav-item " id="reciclable1" >
 		    <a class="nav-link active" id="plastico-tab" data-toggle="tab" href="#plastico" role="tab" aria-controls="plastico" aria-selected="true" onclick="activo('plastico');">
 		    	<img src="images/reciclar/categorias/plastico.png" width="100"><br><br><span id="plastico" class="negrilla gris">PLÁSTICO</span>
 		    </a>
@@ -40,6 +40,16 @@
 		  <li class="nav-item" id="reciclable3">
 		    <a class="nav-link" id="chatarra-tab" data-toggle="tab" href="#chatarra" role="tab" aria-controls="chatarra" aria-selected="false" onclick="activo('chatarra');" >
 		    	<img src="images/reciclar/categorias/chatarra.png" width="100"><br><br><span id="chatarra" class="negrilla gris">CHATARRA</span>
+		    </a>
+		  </li>
+		  <li class="nav-item" id="reciclable4" >
+		    <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#tech" role="tab" aria-controls="tech" aria-selected="false" onclick="activo('tech');">
+		    	<img src="images/reciclar/categorias/tech.png" width="100"><br><br><span id="tech" class="negrilla gris">TECH</span>
+		    </a>
+		  </li>
+		  <li class="nav-item" id="reciclable5">
+		    <a class="nav-link" id="vidrio-tab" data-toggle="tab" href="#vidrio" role="tab" aria-controls="vidrio" aria-selected="false" onclick="activo('vidrio');">
+		    	<img src="images/reciclar/categorias/vidrio.png" width="100"><br><br><span id="vidrio" class="negrilla gris">VIDRIO</span>
 		    </a>
 		  </li>
 		  <li class="nav-item" id="no_reciclable1" >
@@ -57,29 +67,25 @@
 		    	<img src="images/reciclar/categorias/peligroso.png" width="100"><br><br><span id="peligroso" class="negrilla gris">PELIGROSO</span>
 		    </a>
 		  </li>
-		  <li class="nav-item" id="reciclable4" >
-		    <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#tech" role="tab" aria-controls="tech" aria-selected="false" onclick="activo('tech');">
-		    	<img src="images/reciclar/categorias/tech.png" width="100"><br><br><span id="tech" class="negrilla gris">TECH</span>
+		  <li class="nav-item" id="no_reciclable4">
+		    <a class="nav-link" id="especiales-tab" data-toggle="tab" href="#especiales" role="tab" aria-controls="especiales" aria-selected="false" onclick="activo('especiales');">
+		    	<img src="images/reciclar/categorias/especiales.png" width="110"><br><br><span id="especiales" class="negrilla gris">ESPECIALES</span>
 		    </a>
 		  </li>
-		  <li class="nav-item" id="reciclable5">
-		    <a class="nav-link" id="vidrio-tab" data-toggle="tab" href="#vidrio" role="tab" aria-controls="vidrio" aria-selected="false" onclick="activo('vidrio');">
-		    	<img src="images/reciclar/categorias/vidrio.png" width="100"><br><br><span id="vidrio" class="negrilla gris">VIDRIO</span>
-		    </a>
-		  </li>
+		  
 		</ul>
 	</div>
 	
-	<div id="content_categoria" onchange="ocultar()">
+	<div id="content_categoria" class="centrar" onchange="ocultar()">
 		<br><br>
 		<div class="row">
 			<div class="col" id="plastico-content" >
 				<div class="row">
 					<div class="col">
-						<img src="images/reciclar/categorias/reciclable/plastico/g208.png" width="200">
+						<img src="images/reciclar/categorias/reciclable/plastico/g208.png" width="200" height="200">
 					</div>
 					<div class="col">
-						<img src="images/reciclar/categorias/reciclable/plastico/g220.png" width="200">
+						<img src="images/reciclar/categorias/reciclable/plastico/g220.png" width="200" height="200">
 					</div>
 				</div>
 			</div>
@@ -89,7 +95,7 @@
 			<div class="col" id="papel-content">
 				<div class="row">
 					<div class="col" >
-						<img src="images/reciclar/categorias/reciclable/papel/periodico.jpg" width="200">
+						<img src="images/reciclar/categorias/reciclable/papel/periodico.jpg" width="200" height="200">
 					</div>
 				</div>
 			</div>
@@ -98,7 +104,7 @@
 			<div class="col"  id="chatarra-content">
 				<div class="row">
 					<div class="col" >
-						<img src="images/reciclar/categorias/reciclable/chatarra/aluminio.jpg" width="200">
+						<img src="images/reciclar/categorias/reciclable/chatarra/aluminio.jpg" width="200" height="200">
 					</div>
 				</div>
 			</div>
@@ -107,7 +113,7 @@
 			<div class="col" id="compuesto-content" >
 				<div class="row">
 					<div class="col" >
-						<img src="images/reciclar/categorias/no_reciclable/compuesto/tetrapack.jpg" width="200">
+						<img src="images/reciclar/categorias/no_reciclable/compuesto/tetrapack.jpg" width="200" height="200">
 					</div>
 				</div>
 			</div>
@@ -116,7 +122,7 @@
 			<div class="col" id="organico-content" >
 				<div class="row">
 					<div class="col" >
-						<img src="images/reciclar/categorias/no_reciclable/organico/organico.png" width="200">
+						<img src="images/reciclar/categorias/no_reciclable/organico/organico.png" width="200" height="200">
 					</div>
 				</div>
 			</div>
@@ -125,7 +131,7 @@
 			<div class="col" id="peligroso-content" >
 				<div class="row">
 					<div class="col" >
-						<img src="images/reciclar/categorias/no_reciclable/peligroso/peligroso.png" width="200">
+						<img src="images/reciclar/categorias/no_reciclable/peligroso/peligroso.png" width="200" height="200">
 					</div>	
 				</div>
 			</div>
@@ -134,7 +140,7 @@
 			<div class="col" id="tech-content" >
 				<div class="row">
 					<div class="col" >
-						<img src="images/reciclar/categorias/reciclable/tech/telefono.jpg" width="200">
+						<img src="images/reciclar/categorias/reciclable/tech/telefono.jpg" width="200" height="200">
 					</div>
 				</div>
 			</div>
@@ -143,7 +149,16 @@
 			<div class="col" id="vidrio-content" >
 				<div class="row">
 					<div class="col" >
-						<img src="images/reciclar/categorias/reciclable/vidrio/vidrio.jpg" width="200">
+						<img src="images/reciclar/categorias/reciclable/vidrio/vidrio.jpg" width="200" height="200">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col" id="especiales-content" >
+				<div class="row">
+					<div class="col" >
+						<img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" width="200" height="200">
 					</div>
 				</div>
 			</div>
@@ -169,6 +184,7 @@
 		    	<img src="images/fondoazul.png" width="100%" height="250px">
 		      <div class="carousel-caption d-none d-md-block">
 			    <h1 class="negrilla">TIPS</h1>
+			    <br>
 			    <p class="parrafo">EVITA EL USO DEL SORBETE. CASI NUNCA SE RECICLA, <br>
 			    	TIENE UN EFECTO ENORME EN EL MEDIO AMBIENTE, <br>Y NOCUMPLE UNA FUNCIÓN HIGIÉNICA.</p>
 			  </div>
@@ -177,6 +193,7 @@
 		    	<img src="images/fondoazul.png" width="100%" height="250px">
 		      <div class="carousel-caption d-none d-md-block">
 			    <h1 class="negrilla">TIPS</h1>
+			    <br>
 			    <p class="parrafo">EVITA EL USO DEL SORBETE. CASI NUNCA SE RECICLA, <br>
 			    	TIENE UN EFECTO ENORME EN EL MEDIO AMBIENTE, <br>Y NOCUMPLE UNA FUNCIÓN HIGIÉNICA.</p>
 			  </div>

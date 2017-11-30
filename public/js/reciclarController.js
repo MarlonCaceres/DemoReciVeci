@@ -4,7 +4,7 @@ var ocultar= function(){
 	var x= document.getElementById('categorias');
 	console.log(x);
 
-	document.getElementById('categorias').style.display='none';
+	//document.getElementById('categorias').style.display='none';
 	document.getElementById('content_categoria').style.display='none';
 	
 }
@@ -23,10 +23,12 @@ var reciclable= function(){
 		document.getElementById("no_reciclable1").style.display = "none";
 		document.getElementById("no_reciclable2").style.display = "none";
 		document.getElementById("no_reciclable3").style.display = "none";
+		document.getElementById("no_reciclable4").style.display = "none";
 	}else{
 		document.getElementById("no_reciclable1").style.display = "none";
 		document.getElementById("no_reciclable2").style.display = "none";
 		document.getElementById("no_reciclable3").style.display = "none";		
+		document.getElementById("no_reciclable4").style.display = "none";
 	}
 	limpiarcategorias();
 }
@@ -40,6 +42,7 @@ var no_reciclable= function(){
 		document.getElementById("no_reciclable1").style.display = "inline";
 		document.getElementById("no_reciclable2").style.display = "inline";
 		document.getElementById("no_reciclable3").style.display = "inline";
+		document.getElementById("no_reciclable4").style.display = "inline";
 		document.getElementById("reciclable1").style.display = "none";
 		document.getElementById("reciclable2").style.display = "none";
 		document.getElementById("reciclable3").style.display = "none";
@@ -75,11 +78,12 @@ function limpiar(){
 	document.getElementById('peligroso').style.borderBottom="none";
 	document.getElementById('tech').style.borderBottom="none";
 	document.getElementById('vidrio').style.borderBottom="none";
+	document.getElementById('especiales').style.borderBottom="none";
 }
 
 function contenido($categoria){
 	limpiarcategorias();
-	console.log($categoria);
+	//console.log($categoria);
 	document.getElementById('content_categoria').style.display='inline';
 	document.getElementById($categoria).style.display='inline';
 }
@@ -93,7 +97,9 @@ function limpiarcategorias(){
 	document.getElementById('peligroso-content').style.display="none";
 	document.getElementById('tech-content').style.display="none";
 	document.getElementById('vidrio-content').style.display="none";	
-	console.log('limpiando categorias');
+	document.getElementById('especiales-content').style.display="none";	
+	//console.log('limpiando categorias');
 }
 
 ocultar();
+
