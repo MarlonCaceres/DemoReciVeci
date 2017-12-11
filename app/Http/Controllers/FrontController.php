@@ -42,6 +42,11 @@ class FrontController extends Controller
         return view('faq');
     }
 
+    public function mailing()
+    {
+        return 'ok';
+    }
+
     /**
      * Show the form for creating a new resource.
      *

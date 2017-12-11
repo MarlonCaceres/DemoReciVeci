@@ -39,15 +39,24 @@
 	font-size: 25px;
 }
 
+.descarga:hover{
+	color: #1F75B8;
+	font-size: 25px;
+}
+
 .seccion1{
-	padding-top: 30px;
-    padding-bottom: 40px;
+	padding-top: 40px;
+    padding-bottom: 50px;
 }
 .seccion2{
 	padding-top: 30px;
     padding-bottom: 60px;
 }
 
+.seccion2-aux{
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
 .vertical{
 	writing-mode: vertical-lr;
 	transform: rotate(270deg);
@@ -84,4 +93,24 @@ button.btn-enviar{
 	padding-top: 30px;
     padding-bottom: 30px;
 	}
+}
+
+button.btn-aux{
+	background-color: transparent;
+	border:none;
+	font-size: 25px;
+	margin-top: 25px;
+	border-radius: 5px;
+	padding: 6px 10px 6px 10px;
+}
+
+button.btn-aux:hover{
+	background-color: transparent;
+	border:none;
+	font-size: 25px;
+	margin-top: 25px;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+
 }

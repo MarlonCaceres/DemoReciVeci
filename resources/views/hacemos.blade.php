@@ -70,7 +70,7 @@
 	</div>
 </section>
 
-<section id="hacemos2" class="hacemos2">
+<section id="hacemos2" class="hacemos2" hidden>
 	<div class="centrar ">
 		<br><br>
 		<h1 class="celeste negrilla">HISTORIA</h1>
