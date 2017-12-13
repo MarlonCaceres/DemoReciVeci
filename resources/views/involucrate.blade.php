@@ -56,7 +56,10 @@
 		</div>
 	</form-->
 
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 744824d7bfb4df034c718d30fc64c41025cd4ecb
 	<form action ="guardar()" method="POST" class="">
 		<div class="form-row centrar" id="formulario_voluntario">	
 			<div class="col-3"></div>
