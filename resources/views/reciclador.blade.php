@@ -3,20 +3,27 @@
 
 <link rel="stylesheet" type="text/css" href="css/conoce_reciclador.css">
 
-<section id="conoce-1">
-	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img class="d-block w-100 slider-tam" src="images/conoce/slider/slider-reci1.png" alt="Reciclador">
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100 slider-tam" src="images/conoce/slider/slider-reci2.png" alt="Reciclador">
-	    </div>
-	  </div>
-	</div>	
+<section id="conoce-1" >
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100 slider-tam" src="images/conoce/slider/slider-reci1.png" alt="Reciclador">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100 slider-tam" src="images/conoce/slider/slider-reci2.png" alt="Reciclador">
+			    </div>
+			  </div>
+			</div>			
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	
 </section>
 
-<section id="conoce-2" class="azul">
+<section id="conoce-2" class="azul" hidden>
 	<div><br><br><br></div>
 
 	<div>
@@ -167,7 +174,7 @@
 </section>
 
 
-<section id="conoce-3">
-	<br><br><br><h1 class="centrar" style="font-weight: bold;">ESPERA PRONTO NUESTRA<br> NUEVA APP...!!!</h1><br><br><br>
+<section id="conoce-3" class="fd-azul blanco">
+	<br><br><br><h1 class="centrar " style="font-weight: bold;">ESPERA PRONTO NUESTRA<br> NUEVA APP...!!!</h1><br><br><br>
 </section>
 @stop

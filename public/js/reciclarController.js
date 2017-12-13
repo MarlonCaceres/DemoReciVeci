@@ -2,7 +2,7 @@ console.log('Cargando Controlador');
 
 var ocultar= function(){
 	var x= document.getElementById('categorias');
-	console.log(x);
+	//console.log(x);
 
 	//document.getElementById('categorias').style.display='none';
 	document.getElementById('content_categoria').style.display='none';
@@ -10,56 +10,92 @@ var ocultar= function(){
 }
 
 var reciclable= function(){
-	var x = document.getElementById('reciclable1');
+	var x = document.getElementById('plastico');
 	//console.log(x);
 	document.getElementById('categorias').style.display='inline';
 	if (x.style.display==='none') {
-		document.getElementById("reciclable1").style.display = "inline";
-		document.getElementById("reciclable2").style.display = "inline";
-		document.getElementById("reciclable3").style.display = "inline";
-		document.getElementById("reciclable4").style.display = "inline";
-		document.getElementById("reciclable5").style.display = "inline";
+		document.getElementById("plastico").style.display = "inline";
+		document.getElementById("papel").style.display = "inline";
+		document.getElementById("chatarra").style.display = "inline";
+		document.getElementById("vidrio").style.display = "inline";
 		//document.getElementById("reciclable6").style.display = "inline";
-		document.getElementById("no_reciclable1").style.display = "none";
-		document.getElementById("no_reciclable2").style.display = "none";
-		document.getElementById("no_reciclable3").style.display = "none";
-		document.getElementById("no_reciclable4").style.display = "none";
+		document.getElementById("compuesto").style.display = "inline";
+
+		document.getElementById("tech").style.display = "none";
+		document.getElementById("organico").style.display = "none";
+		document.getElementById("peligroso").style.display = "none";
+		document.getElementById("especiales").style.display = "none";
 	}else{
-		document.getElementById("no_reciclable1").style.display = "none";
-		document.getElementById("no_reciclable2").style.display = "none";
-		document.getElementById("no_reciclable3").style.display = "none";		
-		document.getElementById("no_reciclable4").style.display = "none";
+		//document.getElementById("compuesto").style.display = "none";
+		document.getElementById("tech").style.display = "none";
+		document.getElementById("organico").style.display = "none";
+		document.getElementById("peligroso").style.display = "none";		
+		document.getElementById("especiales").style.display = "none";
 	}
+	limpiar();
 	limpiarcategorias();
+	
 }
 
 var no_reciclable= function(){
 
-	var x = document.getElementById('no_reciclable1');
+	var x = document.getElementById('organico');
 	//console.log(x);
 	document.getElementById('categorias').style.display='inline';
 	if (x.style.display==='none') {
-		document.getElementById("no_reciclable1").style.display = "inline";
-		document.getElementById("no_reciclable2").style.display = "inline";
-		document.getElementById("no_reciclable3").style.display = "inline";
-		document.getElementById("no_reciclable4").style.display = "inline";
-		document.getElementById("reciclable1").style.display = "none";
-		document.getElementById("reciclable2").style.display = "none";
-		document.getElementById("reciclable3").style.display = "none";
-		document.getElementById("reciclable4").style.display = "none";
-		document.getElementById("reciclable5").style.display = "none";
+		document.getElementById("compuesto").style.display = "none";
+		document.getElementById("organico").style.display = "inline";
+		document.getElementById("peligroso").style.display = "none";
+		document.getElementById("especiales").style.display = "none";
+		document.getElementById("plastico").style.display = "none";
+		document.getElementById("papel").style.display = "none";
+		document.getElementById("chatarra").style.display = "none";
+		document.getElementById("tech").style.display = "none";
+		document.getElementById("vidrio").style.display = "none";
 		//document.getElementById("reciclable6").style.display = "none";
 	}else{
-		document.getElementById("reciclable1").style.display = "none";
-		document.getElementById("reciclable2").style.display = "none";
-		document.getElementById("reciclable3").style.display = "none";
-		document.getElementById("reciclable4").style.display = "none";
-		document.getElementById("reciclable5").style.display = "none";
+		document.getElementById("compuesto").style.display = "none";
+		document.getElementById("plastico").style.display = "none";
+		document.getElementById("papel").style.display = "none";
+		document.getElementById("chatarra").style.display = "none";
+		document.getElementById("tech").style.display = "none";
+		document.getElementById("vidrio").style.display = "none";
+		document.getElementById("peligroso").style.display = "none";
+		document.getElementById("especiales").style.display = "none";
 		//document.getElementById("reciclable6").style.display = "none";
 	}
+	limpiar();
 	limpiarcategorias();
 }
 
+var especiales= function(){
+	var x = document.getElementById('peligroso');
+	//console.log(x);
+	document.getElementById('categorias').style.display='inline';
+	if (x.style.display==='none') {
+		document.getElementById("compuesto").style.display = "none";
+		document.getElementById("organico").style.display = "none";
+		document.getElementById("peligroso").style.display = "inline";
+		document.getElementById("especiales").style.display = "inline";
+		document.getElementById("plastico").style.display = "none";
+		document.getElementById("papel").style.display = "none";
+		document.getElementById("chatarra").style.display = "none";
+		document.getElementById("tech").style.display = "none";
+		document.getElementById("vidrio").style.display = "none";
+		//document.getElementById("reciclable6").style.display = "none";
+	}else{
+		document.getElementById("plastico").style.display = "none";
+		document.getElementById("papel").style.display = "none";
+		document.getElementById("chatarra").style.display = "none";
+		document.getElementById("tech").style.display = "none";
+		document.getElementById("vidrio").style.display = "none";
+		document.getElementById("compuesto").style.display = "none";
+		document.getElementById("organico").style.display = "none";
+		//document.getElementById("reciclable6").style.display = "none";
+	}
+	limpiar();
+	limpiarcategorias();
+}
 
 var activo= function($valor) {
 	limpiar();

@@ -20,7 +20,13 @@ p{
 	background-color: #1F75B8;
 }
 
+.fd-rojo{
+	background-color: #FF5733;
+}
 
+.fd-rojo1{
+	background-color: #FF2D00;
+}
 
 .fd-verde{
 	background-color: #99C93C;
@@ -55,3 +61,56 @@ p{
 .parrafo{
 	font-size: 24px;
 }
+button.btn-reciclar:focus{
+    outline: none;
+    box-shadow:0 0 0 2px rgba(154,201,60,0.6)
+}
+button.btn-reciclar{
+	background-color: transparent;
+	border:1px solid #99C93C;
+	font-size: 60px;
+	width: 120px;
+	border-radius: 100px;
+}
+
+button.btn-ordinario:focus{
+    outline: none;
+    box-shadow:0 0 0 2px rgba(247,148,30,0.6)
+}
+button.btn-ordinario{
+	background-color: transparent;
+	border:1px solid #F7931D;
+	font-size: 60px;
+	width: 120px;
+	border-radius: 100px;
+}
+
+button.btn-ordinario1:focus{
+    outline: none;
+    box-shadow:0 0 0 2px rgba(237,233,55,0.6)
+}
+button.btn-ordinario1{
+	background-color: transparent;
+	border:1px solid #EDE837;
+	font-size: 60px;
+	width: 120px;
+	border-radius: 100px;
+}
+
+button.btn-especiales:focus{
+    outline: none;
+    box-shadow:0 0 0 2px rgba(255,87,51,0.6)
+}
+button.btn-especiales{
+	background-color: transparent;
+	border:1px solid #FF5733;
+	font-size: 60px;
+	width: 120px;
+	border-radius: 100px;
+}
+span.texto{
+	color:  #92ADC6;
+	font-size: 16px;
+	height: 30px;
+}
+
