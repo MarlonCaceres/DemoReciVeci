@@ -4,7 +4,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/involucrate.css">
 
-<div id="section1" class="fd-tomate blanco centrar seccion1">
+<div id="section1" class="fd-tomate blanco centrar seccion1" hidden>
 	<div class="row">
 		<div class="col">
 			<h1 class="negrilla">Cómo ser un ReciVeci.</h1>		
@@ -31,7 +31,7 @@
 	<div class="centrar row  blanco">
 		<div class="col">
 			<!--h2 class="negrilla">Voluntarios y Colaboradores</h2-->
-			<h1 class="negrilla">Se parte del Equipo de ReciVeci...!!!</h1>
+			<h1 class="negrilla">Tienes alguna sugerencia, inquietud o quieres<br> ser parte del equipo de Reciveci déjanos un mensaje. </h1>
 		</div>
 	</div>
 	<br>
@@ -56,22 +56,44 @@
 		</div>
 	</form-->
 
-<<<<<<< HEAD
+	<div class="centrar">
+		{!! Form::open(['route'=>'mail.store','method'=>'POST','class'=>'formulario']) !!}
+	        <div class="form-group col-md-12 col-sm-12">
+					{!!Form::text('Nombres',null,['class'=>'form-control','placeholder'=>'Nombre: Juan José Flores'])!!}
+			</div>
+			<div class="form-group col-md-12 col-sm-12">
+					{!!Form::text('Correo',null,['class'=>'form-control','placeholder'=>'Correo: Juan.Jose@reciveci.ec'])!!}
+			</div>
+			<div class="form-group col-md-12 col-sm-12" hidden>
+					{!!Form::select('Tipo',['1'=>'Diseño Web y Móvil',
+											'2'=>'Desarrollo de Sistemas',
+											'3'=>'Capacitaciones',
+											'4'=>'Voluntario'],
+									null,['class'=>'form-control','placeholder'=>'Seleccione una opción'])!!}
+			</div>
+			<div class="form-group col-md-12 col-sm-12">
+					{!!Form::textarea('Mensaje',null,['class'=>'form-control','placeholder'=>'Su mensaje aquí.'])!!}
+			</div>
+			<button class="btn-aux negrilla blanco" >ENVIAR</button>
+	    {!! Form::close() !!}	
+	</div>
 	
-=======
->>>>>>> 744824d7bfb4df034c718d30fc64c41025cd4ecb
-	<form action ="guardar()" method="POST" class="">
+
+  
+
+	<!--form action ="guardar()" method="POST" class="">
 		<div class="form-row centrar" id="formulario_voluntario">	
 			<div class="col-3"></div>
 			<div class="col-6" class="form-group" style="">
-				<input type="text" name="Nombres" class="form-control " placeholder="Juan José Flores">
-				<input type="text" name="Correo" class="form-control" placeholder="Juan.Jose@reciveci.ec">
+				<input type="text" name="Nombres" class="form-control " placeholder="Nombre: Juan José Flores">
+				<input type="text" name="Correo" class="form-control" placeholder="Correo: Juan.Jose@reciveci.ec">
 				
 				<select name="tipo_vol" class="form-control" hidden>
 					<option>Seleccione una opción</option>
 					<option>Diseño Web y Móvil</option>
 					<option>Desarrollo de Sistemas</option>
 					<option>Capacitaciones</option>
+					<option>Voluntario</option>
 				</select>
 				
 				<textarea class="form-control" rows="5" cols="81" placeholder="Su mensaje aquí." name="mensaje"></textarea>
@@ -80,7 +102,7 @@
 			</div>
 			<div class="col-3"></div>
 		</div>
-	</form>	
+	</form-->	
 </div>
 
 

@@ -5,8 +5,8 @@
 
 <section id="conoce-1" >
 	<div class="row">
-		<div class="col-md-2"></div>
-		<div class="col-md-8">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
 			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
@@ -18,7 +18,7 @@
 			  </div>
 			</div>			
 		</div>
-		<div class="col-md-2"></div>
+		<div class="col-md-3"></div>
 	</div>
 	
 </section>
@@ -175,6 +175,6 @@
 
 
 <section id="conoce-3" class="fd-azul blanco">
-	<br><br><br><h1 class="centrar " style="font-weight: bold;">ESPERA PRONTO NUESTRA<br> NUEVA APP...!!!</h1><br><br><br>
+	<br><br><br><h1 class="centrar " style="font-weight: bold;">¡ESPERA PRONTO NUESTRA "RECIAPP".<br> ASÍ PODRÁS CONOCER A LOS<br>RECICLADORES DE TU BARRIO!</h1><br><br><br>
 </section>
 @stop

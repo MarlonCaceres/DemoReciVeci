@@ -4,12 +4,39 @@ var ocultar= function(){
 	var x= document.getElementById('categorias');
 	//console.log(x);
 
-	//document.getElementById('categorias').style.display='none';
+	document.getElementById('categorias').style.display='none';
 	document.getElementById('content_categoria').style.display='none';
 	
 }
 
 var reciclable= function(){
+	//animacion giro
+	document.getElementById("imgr").style.WebkitAnimationDuration = "3s";
+	document.getElementById("imgr").style.animationDuration="3s;";	
+
+	document.getElementById("imgnr").style.WebkitAnimationDuration = "10s";
+	document.getElementById("imgnr").style.animationDuration="10s;";	
+
+	document.getElementById("imgp").style.WebkitAnimationDuration = "10s";
+	document.getElementById("imgp").style.animationDuration="10s;";		
+	
+	//borde bottom 
+	document.getElementById("div-reciclable").style.borderBottom="2px solid #99C93C";
+	document.getElementById("div-reciclable").style.paddingBottom="10px";
+
+	document.getElementById("div-peligrosos").style.borderBottom="none";
+	document.getElementById("div-no-reciclable").style.borderBottom="none";
+
+	//bordes
+	document.getElementById("img-reciclable").style.border="3px solid #99C93C";
+	//document.getElementById("img-reciclable").style.paddingBottom="10px";
+	
+	document.getElementById("img-no-reciclable").style.border="1px solid #F7931D";
+	//document.getElementById("img-no-reciclable").style.paddingBottom="10px";
+
+	document.getElementById("img-peligrosos").style.border="1px solid #FF5733";
+	//document.getElementById("img-peligrosos").style.paddingBottom="10px";
+
 	var x = document.getElementById('plastico');
 	//console.log(x);
 	document.getElementById('categorias').style.display='inline';
@@ -20,11 +47,11 @@ var reciclable= function(){
 		document.getElementById("vidrio").style.display = "inline";
 		//document.getElementById("reciclable6").style.display = "inline";
 		document.getElementById("compuesto").style.display = "inline";
-
 		document.getElementById("tech").style.display = "none";
 		document.getElementById("organico").style.display = "none";
 		document.getElementById("peligroso").style.display = "none";
 		document.getElementById("especiales").style.display = "none";
+
 	}else{
 		//document.getElementById("compuesto").style.display = "none";
 		document.getElementById("tech").style.display = "none";
@@ -38,6 +65,32 @@ var reciclable= function(){
 }
 
 var no_reciclable= function(){
+	//animacion giro
+	document.getElementById("imgr").style.WebkitAnimationDuration = "10s";
+	document.getElementById("imgr").style.animationDuration="10s;";	
+
+	document.getElementById("imgnr").style.WebkitAnimationDuration = "3s";
+	document.getElementById("imgnr").style.animationDuration="3s;";	
+
+	document.getElementById("imgp").style.WebkitAnimationDuration = "10s";
+	document.getElementById("imgp").style.animationDuration="10s;";
+
+	//borde bottom 
+	document.getElementById("div-no-reciclable").style.borderBottom="2px solid #F7931D";
+	document.getElementById("div-no-reciclable").style.paddingBottom="10px";
+
+	document.getElementById("div-peligrosos").style.borderBottom="none";
+	document.getElementById("div-reciclable").style.borderBottom="none";
+
+	//bordes
+	document.getElementById("img-reciclable").style.border="1px solid #99C93C";
+	//document.getElementById("img-reciclable").style.paddingBottom="10px";
+	
+	document.getElementById("img-no-reciclable").style.border="3px solid #F7931D";
+	//document.getElementById("img-no-reciclable").style.paddingBottom="10px";
+
+	document.getElementById("img-peligrosos").style.border="1px solid #FF5733";
+	//document.getElementById("img-peligrosos").style.paddingBottom="10px";
 
 	var x = document.getElementById('organico');
 	//console.log(x);
@@ -69,6 +122,34 @@ var no_reciclable= function(){
 }
 
 var especiales= function(){
+	//animacion giro
+	document.getElementById("imgr").style.WebkitAnimationDuration = "10s";
+	document.getElementById("imgr").style.animationDuration="10s;";	
+
+	document.getElementById("imgnr").style.WebkitAnimationDuration = "10s";
+	document.getElementById("imgnr").style.animationDuration="10s;";	
+
+	document.getElementById("imgp").style.WebkitAnimationDuration = "3s";
+	document.getElementById("imgp").style.animationDuration="3s;";
+
+	//borde bottom 
+	document.getElementById("div-peligrosos").style.borderBottom="2px solid #FF5733";
+	document.getElementById("div-peligrosos").style.paddingBottom="10px";
+
+	document.getElementById("div-no-reciclable").style.borderBottom="none";
+	document.getElementById("div-reciclable").style.borderBottom="none";
+
+	//bordes imagen
+	document.getElementById("img-reciclable").style.border="1px solid #99C93C";
+	//document.getElementById("img-reciclable").style.paddingBottom="10px";
+	
+	document.getElementById("img-no-reciclable").style.border="1px solid #F7931D";
+	//document.getElementById("img-no-reciclable").style.paddingBottom="10px";
+
+	document.getElementById("img-peligrosos").style.border="3px solid #FF5733";
+	//document.getElementById("img-peligrosos").style.paddingBottom="10px";
+
+	//contenido
 	var x = document.getElementById('peligroso');
 	//console.log(x);
 	document.getElementById('categorias').style.display='inline';
@@ -83,6 +164,7 @@ var especiales= function(){
 		document.getElementById("tech").style.display = "none";
 		document.getElementById("vidrio").style.display = "none";
 		//document.getElementById("reciclable6").style.display = "none";
+
 	}else{
 		document.getElementById("plastico").style.display = "none";
 		document.getElementById("papel").style.display = "none";

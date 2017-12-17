@@ -61,6 +61,19 @@ p{
 .parrafo{
 	font-size: 24px;
 }
+
+a.btn-reciclar:focus{
+    outline: none;
+    box-shadow:0 0 0 2px rgba(154,201,60,0.6)
+}
+a.btn-reciclar{
+	background-color: transparent;
+	border:1px solid #99C93C;
+	font-size: 60px;
+	width: 120px;
+	border-radius: 100px;
+}
+
 button.btn-reciclar:focus{
     outline: none;
     box-shadow:0 0 0 2px rgba(154,201,60,0.6)
@@ -75,7 +88,7 @@ button.btn-reciclar{
 
 button.btn-ordinario:focus{
     outline: none;
-    box-shadow:0 0 0 2px rgba(247,148,30,0.6)
+    box-shadow:0 0 0 2px rgba(247,148,30,0.6);
 }
 button.btn-ordinario{
 	background-color: transparent;
@@ -87,7 +100,7 @@ button.btn-ordinario{
 
 button.btn-ordinario1:focus{
     outline: none;
-    box-shadow:0 0 0 2px rgba(237,233,55,0.6)
+    box-shadow:0 0 0 2px rgba(237,233,55,0.6);
 }
 button.btn-ordinario1{
 	background-color: transparent;
@@ -99,7 +112,7 @@ button.btn-ordinario1{
 
 button.btn-especiales:focus{
     outline: none;
-    box-shadow:0 0 0 2px rgba(255,87,51,0.6)
+    box-shadow:0 0 0 2px rgba(255,87,51,0.6);
 }
 button.btn-especiales{
 	background-color: transparent;
@@ -114,3 +127,30 @@ span.texto{
 	height: 30px;
 }
 
+
+@keyframes rotate {from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotateY(0deg);}
+  to {-webkit-transform: rotateY(360deg);}}
+.imgr{
+    -webkit-animation: 10s rotate ease-in infinite;
+    animation: 10s rotate ease-in infinite;
+    animation-direction: alternate;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.btn-reciclar:hover{
+	outline: none;
+    box-shadow:0 0 0 3px rgba(154,201,60,0.6);	
+}
+
+.btn-ordinario1:hover{
+	outline: none;
+    box-shadow:0 0 0 2px rgba(237,233,55,0.6);	
+}
+
+.btn-especiales:hover{
+	outline: none;
+    box-shadow:0 0 0 2px rgba(255,87,51,0.6);	
+}

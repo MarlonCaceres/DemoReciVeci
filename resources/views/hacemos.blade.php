@@ -2,13 +2,36 @@
 
 @section('content')
 <link rel="stylesheet" type="text/css" href="css/animacion_hacemos.css">
+<link rel="stylesheet" type="text/css" href="css/hacemos.css">
 
 <section id="hacemos1" class="hacemos1">
 	<div class="centrar ">
-		<br><br>
-		<h1 class="celeste negrilla">EN LA PRÁCTICA ¿QUÉ HACEMOS?</h1>
 		<br>
-		
+		<h1 class="celeste negrilla ">EN LA PRÁCTICA ¿QUÉ HACEMOS?</h1>
+		<br>
+		<div class="row centrar texto-aux fd-tomate">
+			<div class="col">
+				<h2 class="blanco ">ReciVeci es una iniciativa de voluntariado ciudadano<br>e independiente que promueve el reciclaje inclusivo en<br>Ecuador.<br><br>Somos un grupo organizado que busca generar una<br>cultura de reciclaje por medio de un vínculo humano<br>entre recicladores/as de base y ciudadanos/as.</h2>
+			</div>
+		</div>
+
+		<div class="row centrar texto-aux fd-verde">
+			<div class="col">
+				<h1 class="blanco negrilla">Trabajamos en:<br></h1>
+				<br>
+				<h5>
+					<ul class="blanco negrilla">
+						<li></li>
+						<li> Incrementar los porcentajes de separación de residuos en los hogares ecuatorianos.<br>&nbsp</li>
+						<li>Recuperar el material reciclable  de forma eficiente por parte de los/as recicladores/as de base.<br>&nbsp</li>
+						<li>Capacitar a los/as vecinos/as, instituciones, barrios y vincularlos/as directamente con el/la reciclador/a de su barrio.<br>&nbsp</li>
+						<li>Generar herramientas para fortalecer la capacitación ciudadana: talleres, app. móvil, web y redes sociales.<br>&nbsp</li>
+						<li>Fortalecer la organización de los/as recicladores/as de base e incrementar su potencial emprendedor.</li>
+					</ul>
+				</h5>
+			</div>
+		</div>
+		<br>
 		<table class="practica">
 			<tr>
 				<td width="350">

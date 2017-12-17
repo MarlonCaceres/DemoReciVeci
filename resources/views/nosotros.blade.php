@@ -108,6 +108,51 @@
 		        </div>
 		        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:100px;width:790px;height:150px;overflow:hidden; ">
 		            <div>
+		                <a data-toggle="modal" data-target="#carolina">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/carolina1.png" />
+						</a>
+		            </div>
+		            <div>
+		                <a data-toggle="modal" data-target="#soledad">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/soledad.png" />
+						</a>
+		            </div>
+		            <div>
+		                <a data-toggle="modal" data-target="#lucia">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/lucia.png" />
+						</a>
+		            </div>
+		            <div>
+		                <a data-toggle="modal" data-target="#fernando">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/fernando.png" />
+						</a>
+		            </div>
+		            <div>
+		                <a data-toggle="modal" data-target="#juan">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/juan.png" />
+						</a>
+		            </div>
+		            <div>
+		                <a data-toggle="modal" data-target="#paula">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/paula.png" />
+						</a>
+		            </div>
+		            <div>
+		                <a data-toggle="modal" data-target="#lorena">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/lorena.png" />
+						</a>
+		            </div>
+		            <div>
+		                <a data-toggle="modal" data-target="#claudia">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/claudia.png" />
+						</a>
+		            </div>
+		            <div>
+		                <a data-toggle="modal" data-target="#paulina">
+						  <img class="voluntarios" data-u="image" src="images/nosotros/paulina.png" />
+						</a>
+		            </div>
+		            <!--div>
 		                <img class="voluntarios" data-u="image" src="images/nosotros/vol_coordinador/vol1.png" />
 		            </div>
 		            <div>
@@ -118,7 +163,7 @@
 		            </div>
 		            <div>
 		                <img class="voluntarios" data-u="image" src="images/nosotros/vol_coordinador/vol4.png" />
-		            </div>
+		            </div-->
 
 		        </div>
 		        <!-- Bullet Navigator -->
@@ -428,4 +473,208 @@
 	</div>
 	<br>
 </section>
+
+
+<!-- Modal Carolina -->
+<div class="modal fade" id="carolina" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">CAROLINA VACA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/carolina1.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Psicóloga clínica, apasionada con los temas de inclusión social, el trabajo por la igualdad de condiciones, el reciclaje y en especial el apoyo a los derechos de los recicladores que laboran en centros de acopio, calles y escombreras de la ciudad de Quito.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Soledad -->
+<div class="modal fade" id="soledad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">SOLEDAD VILLARROEL</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/soledad.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Ingeniera Civil con Maestría en Ingeniería Sanitaria, experiencia de 10 años en manejo de proyectos de agua y saneamiento; adicionalmente con 4 años de experiencia en el campo de la docencia.  Practicante de yoga, amante de la música y el arte y proambiente.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal lucia -->
+<div class="modal fade" id="lucia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">LUCÍA SALAZAR</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/lucia.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Humana, lationamericana, músico y abogada ecologista. Trabaja con movimientos sociales y ambientales, investiga sobre la justicia ambiental y ecológica. Su pasión, la igualdad en la diversidad.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal fernando -->
+<div class="modal fade" id="fernando" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">FERNANDO GRANIZO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/fernando.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Ingeniero Ambiental y Máster en Estudios Ambientales y Ciencia de la Sostenibilidad. Busco generar soluciones sostenibles para problemas complejos. Me apasiona el deporte, la ciencia, la cultura y la naturaleza, especialmente la de Ecuador. La familia, lo más importante. Toda actividad humana genera un impacto al medio ambiente.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Juan -->
+<div class="modal fade" id="juan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">JUAN SUBÍA VALDEZ</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/juan.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Diseñador industrial – Ciclista, busca solucionar problemas reales de manera efectiva y eficiente, utilizando recursos disponibles. La estética es una consecuencia de las condiciones de trabajo y no el objetivo final.<br><br>
+        	<a href="https://www.facebook.com/afuegodiseno" target="_blank">Facebook</a><br>
+        	<a href="https://www.afuegodiseno.wordpress.com" target="_blank">A fuego diseño</a><br>
+        	<a href="https://www.instagram.com/afuegodiseno" target="_blank">Instagram</a>
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal paula -->
+<div class="modal fade" id="paula" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">PAULA GUERRA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/paula.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Latinoamericana enamorada del mundo de los residuos sólidos. Activa en el fomento del reciclaje inclusivo. Convencida en el fomento de participación ciudadana en la construcción de ciudades inclusivas y sostenibles.
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal lorena -->
+<div class="modal fade" id="lorena" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">LORENA GALLARDO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/lorena.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Ingeniera Ambiental, voluntaria militante por causas ambientales y sociales que buscan equidad y justicia. Apasionada por explorar las montañas y ríos del Ecuador.  Me encanta conocer gente nueva que quiera sumar esfuerzos para generar cambios en el mundo.	</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Claudia -->
+<div class="modal fade" id="claudia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">CLAUDIA ANDRADE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/claudia.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Ingeniera Geógrafa con Master en ciencias de la sociedad y ambiente, con experiencia en gestión integral de residuos sólidos, consumo responsable, reciclaje inclusivo y responsabilidad social y ambiental. Su formación académica le ha permitido ser versátil e involucrarse en varias problemáticas ambientales.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Paulina -->
+<div class="modal fade" id="paulina" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centrar" id="exampleModalLongTitle">PAULINA CRIOLLO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centrar" >
+      	<img src="images/nosotros/paulina.png" width="250" height="250" class="rounded">
+      	<br><br>
+        <p>Ecóloga Industrial.  Apasionada por trabajar con el "desperdicio", por buscar formas de crear oportunidades y nuevos procesos. En pocas palabras: economía circular. Me encanta la bici, subir montañas y tomar café.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 @stop

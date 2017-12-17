@@ -18,24 +18,26 @@
 	<br>
 	<div class="row">
 		<div class="col-md-3 col-sm-1"></div>
-		<div class="col-md-2 col-sm-3" style="text-align: right;">
-			
+		<div class="col-md-2 col-sm-3" id="div-reciclable" style="text-align: center;" >
 			<button class="btn-reciclar " onclick="reciclable()" id="img-reciclable">
-				 <span class="texto"><img src="images/reciclar/corazon.PNG" width="100" style="padding-bottom: 12px;"></span>
+				 <span><img id="imgr" class="imgr" src="images/reciclar/corazon.PNG" width="110" style="padding-top: 6px; padding-bottom: 6px;"></span>
 			</button>
+			<br><br><br><h4  class="negrilla gris" onclick="reciclable()">RECICLABLES</h4>
 
 			<!--input type="button" class="btn fd-verde blanco negrilla " name="btn_reciclable" value="Reciclable" onclick="reciclable()"-->
 		</div>
-		<div class="col-md-2 col-sm-3" style="text-align: center;">
-			<button class="btn-ordinario1" onclick="no_reciclable()">
-				 <span class="texto"><img src="images/reciclar/ordinarios.png" width="80" style="padding-bottom: 12px;"></span>
+		<div class="col-md-2 col-sm-3" style="text-align: center;" id="div-no-reciclable">
+			<button class="btn-ordinario1" onclick="no_reciclable()" id="img-no-reciclable">
+				 <span class="texto"><img id="imgnr" class="imgr" src="images/reciclar/ordinarios.png" width="80" style="padding-bottom: 12px;"></span>
 			</button>
+			<br><br><h4  class="negrilla gris" onclick="no_reciclable()">NO<br>RECICLABLES</h4>
 			<!--input type="button" class="btn fd-tomate blanco negrilla " name="btn_no_reciclable" value="No Reciclable" onclick="no_reciclable()"-->
 		</div>
-		<div class="col-md-2 col-sm-3" style="text-align: left;">
-			<button class="btn-especiales" onclick="especiales()">
-				 <span class="texto"><img src="images/reciclar/ordinarios.png" width="80" style="padding-bottom: 12px;"></span>
+		<div class="col-md-2 col-sm-3" style="text-align: center;" id="div-peligrosos">
+			<button class="btn-especiales" onclick="especiales()" id="img-peligrosos">
+				 <span class="texto"><img id="imgp" class="imgr" src="images/reciclar/peligroso.png" width=90" style="padding-bottom: 12px;"></span>
 			</button>
+			<br><br><h4  class="negrilla gris" onclick="especiales()">PELIGROSOS<br>Y ESPECIALES</h4>
 			<!--input type="button" class="btn fd-rojo blanco negrilla " name="btn_especiales" value="Peligrosos y Especiales" onclick="especiales()"-->
 		</div>
 		<div class="col-md-3 col-sm-1"></div>
@@ -95,9 +97,10 @@
 	
 	<div id="content_categoria" class="centrar" onchange="ocultar()">
 		<br><br>
-		<div class="row">
+		<div class="row ">
 			<div class="col" id="plastico-content" >
-				<div class="row">
+
+				<div class="row ">
 					<div class="col">
 						<div class="view view-ninth">
 							<img src="images/reciclar/categorias/reciclable/plastico/g208.png" width="200" height="200">
@@ -105,14 +108,21 @@
 							<div class="mask mask-2"></div>
 							<div class="content">
 								<p><br><br>Enjuaga los envases<br>y entregalos a tu<br>reciclador de base</p>
+							</div>
 						</div>
 					</div>
-						
-					</div>
 					<div class="col">
-						<img src="images/reciclar/categorias/reciclable/plastico/g220.png" width="200" height="200">
+						<div class="view view-ninth">
+							<img src="images/reciclar/categorias/reciclable/plastico/g220.png" width="200" height="200">
+							<div class="mask mask-1"></div>
+							<div class="mask mask-2"></div>
+							<div class="content">
+								<p><br><br>Enjuaga los envases<br>y entregalos a tu<br>reciclador de base</p>
+							</div>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 

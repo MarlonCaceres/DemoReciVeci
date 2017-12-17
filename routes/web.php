@@ -29,3 +29,5 @@ Route::get('nosotros','FrontController@nosotros');
 Route::get('involucrate','FrontController@involucrate');	
 
 Route::get('faq','FrontController@faq');	
+
+Route::resource('mail','MailController');	
