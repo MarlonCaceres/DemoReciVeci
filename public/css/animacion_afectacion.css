@@ -1,10 +1,11 @@
 /**/
 .view {
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     margin: 10px;
     float: left;
-    border: 10px solid #fff;
+    margin-left: 5px;
+    border: 1px solid #fff;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -12,12 +13,12 @@
     cursor: default;
 }
 .view .mask, .view .content {
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
+    left: 0;
 }
 .view img {
     display: block;

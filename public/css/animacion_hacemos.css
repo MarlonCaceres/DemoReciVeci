@@ -2,8 +2,9 @@
 .view {
     width: 300px;
     height: 200px;
-    margin: 10px;
+    margin: 1px;
     float: left;
+    margin-left: 8px;
     border: 1px solid #fff;
     overflow: hidden;
     position: relative;
@@ -94,7 +95,7 @@
     display: none;
 }
 .view-ninth:hover .content{
-    height: 120px;
+    height: 130px;
     width: 280px;
     opacity: 0.9;
     top: 40px;

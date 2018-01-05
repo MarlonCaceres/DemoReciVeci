@@ -5,7 +5,11 @@ body{
 
 @font-face{
 	font-family: 'Century Gothic';
-    src: url(CenturyGothicRegular.ttf) format('truetype');
+    src: url(../CenturyGothicRegular.ttf) format('truetype');
+}
+
+.letra{
+	font-family: CENTURY GOTHIC BOLD;
 }
 
 .celeste{
@@ -31,7 +35,7 @@ body{
 }
 
 .fondo{
-	background: url('http://localhost/reciveci/ReciVeciWeb/public/images/inicio/headerbasura.png');
+	background: url('../images/inicio/headerbasura.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -96,6 +100,11 @@ section{
 	margin-top: 20px;	
 }
 
+.img-afectacion{
+	width:120px;
+	height:120px;
+}
+
 .letra-p6{
 
 	font-size: 38px;
@@ -151,4 +160,55 @@ li{
 	margin: 0 5px 0 0;
 	padding-bottom: 10px;
 	padding-top: 10px;
+}
+
+.fd-espacio{
+	padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.espacio{
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.espacio-parrafo{
+	padding-top: 20px;
+}
+
+@media screen and (max-width:750px ) {
+	.fondo{
+		background: url('../images/inicio/headerbasura.png');
+		background-repeat: no-repeat;
+		background-size: 180%;
+		background-position: bottom;
+	}
+
+	.letra-p1-negrilla{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.letra-p1{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.fd-espacio{
+		padding-top: 0px;
+	    padding-bottom: 10px;
+	}
+
+	.espacio{
+		padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+
+	.titulo{
+		font-size: 28px;
+	}
+
+	.img-situacion{
+		max-width: 100%;
+	}
 }

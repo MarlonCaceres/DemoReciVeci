@@ -8,39 +8,39 @@
 	<div class="centrar ">
 		<br>
 		<p class="titulo celeste negrilla">QUÉ Y CÓMO SEPARAR</p>
-		<h3 class="celeste">en base al reciclaje en <span class="negrilla">Ecuador</span></h3>
-		<p class="parrafo-1">Por falta de empresas recicladoras, poca información o poca convenienvia<br>económica, las recicladoras de base no siempre recogen todos los residuos<br>reciclables. Si tienes algún residuo reciclable que tu recicladora no recoge, habla con<br>tu recicladora y conéctala con ReciVeci para entregarle más información.
+		<h3 class="celeste subtitulo">en base al reciclaje en <span class="negrilla">Ecuador</span></h3>
+		<p class="parrafo-1 texto">Por falta de empresas recicladoras, poca información o poca convenienvia<br>económica, las recicladoras de base no siempre recogen todos los residuos<br>reciclables. Si tienes algún residuo reciclable que tu recicladora no recoge, habla con<br>tu recicladora y conéctala con ReciVeci para entregarle más información.
 		</p>
 	</div>
 </section>
 
 <section id="reciclar2" >
 	<br>
-	<div class="row">
-		<div class="col-md-3 col-sm-1"></div>
-		<div class="col-md-2 col-sm-3" id="div-reciclable" style="text-align: center;" >
-			<button class="btn-reciclar " onclick="reciclable()" id="img-reciclable">
-				 <span><img id="imgr" class="imgr" src="images/reciclar/corazon.PNG" width="110" style="padding-top: 6px; padding-bottom: 6px;"></span>
+	<div class="row centrar">
+		<div class="col-md-3"></div>
+		<div class="col" id="div-reciclable" style="text-align: center;" >
+			<button class="btn-reciclar" onclick="reciclable()" id="img-reciclable">
+				 <span><img id="imgr" class="imgr" src="images/reciclar/corazon.PNG"></span>
 			</button>
-			<br><br><br><h4  class="negrilla gris" onclick="reciclable()">RECICLABLES</h4>
+			<h4  class="negrilla gris texto espacio-parrafo" onclick="reciclable()">RECICLABLES</h4>
 
 			<!--input type="button" class="btn fd-verde blanco negrilla " name="btn_reciclable" value="Reciclable" onclick="reciclable()"-->
 		</div>
-		<div class="col-md-2 col-sm-3" style="text-align: center;" id="div-no-reciclable">
+		<div class="col" style="text-align: center;" id="div-no-reciclable">
 			<button class="btn-ordinario1" onclick="no_reciclable()" id="img-no-reciclable">
-				 <span class="texto"><img id="imgnr" class="imgr" src="images/reciclar/ordinarios.png" width="80" style="padding-bottom: 12px;"></span>
+				 <span class="texto"><img id="imgnr" class="imgnr" src="images/reciclar/ordinarios.png" ></span>
 			</button>
-			<br><br><h4  class="negrilla gris" onclick="no_reciclable()">NO<br>RECICLABLES</h4>
+			<h4  class="negrilla gris texto espacio-parrafo" onclick="no_reciclable()">NO<br>RECICLABLES</h4>
 			<!--input type="button" class="btn fd-tomate blanco negrilla " name="btn_no_reciclable" value="No Reciclable" onclick="no_reciclable()"-->
 		</div>
-		<div class="col-md-2 col-sm-3" style="text-align: center;" id="div-peligrosos">
+		<div class="col" style="text-align: center;" id="div-peligrosos">
 			<button class="btn-especiales" onclick="especiales()" id="img-peligrosos">
-				 <span class="texto"><img id="imgp" class="imgr" src="images/reciclar/peligroso.png" width=90" style="padding-bottom: 12px;"></span>
+				 <span class="texto"><img id="imgp" class="imgp" src="images/reciclar/peligroso.png" ></span>
 			</button>
-			<br><br><h4  class="negrilla gris" onclick="especiales()">PELIGROSOS<br>Y ESPECIALES</h4>
+			<h4  class="negrilla gris texto espacio-parrafo" onclick="especiales()">PELIGROSOS<br>Y ESPECIALES</h4>
 			<!--input type="button" class="btn fd-rojo blanco negrilla " name="btn_especiales" value="Peligrosos y Especiales" onclick="especiales()"-->
 		</div>
-		<div class="col-md-3 col-sm-1"></div>
+		<div class="col-md-3 "></div>
 	</div>
 	<br><br>
 	<div style="float: none; position: relative; left: 6%;" class="centrar" onchange="ocultar()" id="categorias">
@@ -208,10 +208,10 @@
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
 		    	<img src="images/fondoazul.png" width="100%" height="250px">
-		      <div class="carousel-caption d-none d-md-block">
-			    <h1 class="negrilla">TIPS</h1>
+		      <div class="carousel-caption  d-md-block d-sm-block">
+			    <h1 class="negrilla titulo">TIPS</h1>
 			    <br>
-			    <p class="parrafo">EVITA EL USO DEL SORBETE. CASI NUNCA SE RECICLA, <br>
+			    <p class="parrafo texto">EVITA EL USO DEL SORBETE. CASI NUNCA SE RECICLA, <br>
 			    	TIENE UN EFECTO ENORME EN EL MEDIO AMBIENTE, <br>Y NOCUMPLE UNA FUNCIÓN HIGIÉNICA.</p>
 			  </div>
 		    </div>

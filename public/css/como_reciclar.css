@@ -127,6 +127,25 @@ span.texto{
 	height: 30px;
 }
 
+.fd-espacio{
+	padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.espacio{
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.espacio-parrafo{
+	padding-top: 20px;
+}
+
+.img-reciclar{
+	width:60px;
+	height:60px;
+	
+}
 
 @keyframes rotate {from {transform: rotateY(0deg);}
     to {transform: rotateY(360deg);}}
@@ -138,6 +157,31 @@ span.texto{
     animation-direction: alternate;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+    width: 120px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.imgnr{
+	-webkit-animation: 10s rotate ease-in infinite;
+    animation: 10s rotate ease-in infinite;
+    animation-direction: alternate;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 90px;
+    padding-top: 6px;
+    padding-bottom: 14px;
+}
+
+.imgp{
+	-webkit-animation: 10s rotate ease-in infinite;
+    animation: 10s rotate ease-in infinite;
+    animation-direction: alternate;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 90px;
+    padding-top: 6px;
+    padding-bottom: 14px;
 }
 
 .btn-reciclar:hover{
@@ -154,3 +198,95 @@ span.texto{
 	outline: none;
     box-shadow:0 0 0 2px rgba(255,87,51,0.6);	
 }
+
+@media screen and (max-width:750px ) {
+	.fd-espacio{
+		padding-top: 0px;
+	    padding-bottom: 10px;
+	}
+
+	.espacio{
+		padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+
+	.titulo{
+		font-size: 25px;
+	}
+	.subtitulo{
+		font-size: 20px;
+	}
+	.texto{
+		font-size: 14px;
+		font-weight: normal;
+	}
+	
+	.imgr{
+	    -webkit-animation: 10s rotate ease-in infinite;
+	    animation: 10s rotate ease-in infinite;
+	    animation-direction: alternate;
+	    -webkit-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
+	    width: 60px;
+	    padding-top: 3px;
+	    padding-left: 3px;
+	    margin-bottom:35px;
+	}
+
+	button.btn-reciclar{
+		background-color: transparent;
+		border:1px solid #99C93C;
+		width: 65px;
+		height: 65px;
+		border-radius: 100px;
+		padding: 0;
+	}
+
+	.espacio-parrafo{
+		padding-top: 5px;
+	}
+
+	.imgnr{
+	    -webkit-animation: 10s rotate ease-in infinite;
+	    animation: 10s rotate ease-in infinite;
+	    animation-direction: alternate;
+	    -webkit-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
+	    width: 45px;
+	    padding-top: 3px;
+	    padding-left: 3px;
+	    margin-bottom:55px;
+	}
+
+	button.btn-ordinario1{
+		background-color: transparent;
+		border:1px solid #EDE837;
+		font-size: 60px;
+		width: 65px;
+		height:  65px;
+		border-radius: 100px;
+	}
+
+	.imgp{
+	    -webkit-animation: 10s rotate ease-in infinite;
+	    animation: 10s rotate ease-in infinite;
+	    animation-direction: alternate;
+	    -webkit-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
+	    width: 50px;
+	    padding-top: 3px;
+	    padding-left: 3px;
+	    margin-bottom:50px;
+	}
+
+	button.btn-especiales{
+		background-color: transparent;
+		border:1px solid #FF5733;
+		font-size: 60px;
+		width: 65px;
+		height: 65px;
+		border-radius: 100px;
+	}
+}
+
+
